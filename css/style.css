@@ -42,10 +42,10 @@ img {
   background-color: #7296ec;
   color: #fff;
 }
-.button-primary:hover {
+.button-primary :hover {
   opacity: 0.8;
 }
-.button-primary::after {
+.button-primary ::after {
   opacity: 0.6;
 }
 
@@ -61,6 +61,7 @@ img {
 .site-header-top {
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-bottom: 10px;
   background-color: #f6f6f6;
 }
 
@@ -102,6 +103,21 @@ img {
   color: #2959ce;
 }
 
+.global-search-form-input {
+  font-size: 14px;
+  line-height: normal;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 40px;
+  padding-right: 20px;
+  border-radius: 60px;
+}
+
+.global-search-form {
+  margin-right: 25px;
+}
+
 .lang-toggle {
   display: flex;
   padding: 3px;
@@ -124,4 +140,42 @@ img {
 .lang-toggle-link-active {
   background-color: #fff;
   color: #000;
+}
+
+.sitenav {
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.sitenav-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sitenav-item {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.sitenav-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.sitenav-link {
+  text-decoration: none;
+  display: block;
+  color: #7f7f7f;
+}
+
+.site-header-banner {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
